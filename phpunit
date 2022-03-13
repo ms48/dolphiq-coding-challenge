@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if ! [ -f vendor/bin/phpunit ]; then
+    echo "Error: The phpunit is not available yet. Please wait to composer install the dependencies"
+    exit 1
+fi
+
+docker-compose exec php php vendor/bin/phpunit

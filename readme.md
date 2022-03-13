@@ -1,5 +1,4 @@
 # Dolphiq Coding Challenge
-A simple PHP application to demonstrate proficiency in solving problems.  
 
 ##Specification
 A squad of robotic rovers is to be landed by NASA on a plateau on Mars.
